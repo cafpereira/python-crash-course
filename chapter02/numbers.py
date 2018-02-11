@@ -12,3 +12,10 @@ message = "Happy " + str(age) + "rd Birthday!"
 print(message)
 
 import this
+
+x = 16
+sqrt= x**(1/2)
+print(sqrt)
+
+import math
+print(math.sqrt(x))
