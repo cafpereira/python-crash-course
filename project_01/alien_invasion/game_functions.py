@@ -32,7 +32,6 @@ def check_events(ship):
             # check_keydown_events(event, ai_settings, screen, ship, bullets)
             check_keydown_events(event, ship)
         elif event.type == pygame.KEYUP:
-            # check_keyup_events(event, ship)
             check_keyup_events(event, ship)
 
 # def fire_bullet(ai_settings, screen, ship, bullets):
